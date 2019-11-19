@@ -1,0 +1,25 @@
+{
+  "name": "expressmysql",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "babel-node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.2.0",
+    "hbs": "^4.0.6",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  }
+}
