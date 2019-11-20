@@ -13,7 +13,7 @@ var hbs = require('hbs');
 var bodyParser = require('body-parser');
 
 //importando rutas de customer
-const customerRoutes = require('../routes/index');
+//const customerRoutes = require('../routes/index');
 
 //var usersRouter = require('./routes/users');
 
@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 //app.use('/users', usersRouter);
 // RUTAS
-app.use('/customer',customerRoutes);
+//app.use('/customer',customerRoutes);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
